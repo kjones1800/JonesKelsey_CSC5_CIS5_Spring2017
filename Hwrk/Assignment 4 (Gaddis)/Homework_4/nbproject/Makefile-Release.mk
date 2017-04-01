@@ -63,7 +63,7 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/homework_4.exe: ${OBJECTFILES}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/homework_4 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
 .NO_PARALLEL:${OBJECTDIR}/Calories\ Burned.o
-${OBJECTDIR}/Calories\ Burned.o: Calories\ Burned.cpp 
+${OBJECTDIR}/Calories\ Burned.o: Calories\ Burned.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Calories\ Burned.o Calories\ Burned.cpp
@@ -74,7 +74,6 @@ ${OBJECTDIR}/Calories\ Burned.o: Calories\ Burned.cpp
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
-	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/homework_4.exe
 
 # Subprojects
 .clean-subprojects:

@@ -20,6 +20,8 @@ const float ORLEVEL=1.5f;// The Rate at which the ocean rises ever year in milli
 
 //Program Execution Begins Here
 int main(int argc, char** argv) {
+    //Declare Variables
+    float ORLEVEL=1.5f;// The Rate at which the ocean rises ever year in millimeters
     // Describe what the program is about
     cout<<"This program will display the number of millimeters the ocean will rise"
             "each year over the next 25 years"<<endl;

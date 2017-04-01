@@ -18,6 +18,8 @@ const float CPM = 3.6f; //Number of calories burn on a treadmill in one minute
 
 //Program Execution Begins Here
 int main(int argc, char** argv) {
+    //Declare Variables
+    float CPM = 3.6f; //Number of calories burn on a treadmill in one minute
     cout<<"This program will display the number of calories burned on a treadmill"<<endl;
     //Declare all Variables Here
     int tRun= 30; //Keep track of time running
