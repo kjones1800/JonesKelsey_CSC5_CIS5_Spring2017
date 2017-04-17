@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Chump_ChaneV1
+PROJECTNAME=Chump_ChangeV2
 
 # Active Configuration
 DEFAULTCONF=Debug

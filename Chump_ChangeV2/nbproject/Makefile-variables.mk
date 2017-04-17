@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=chump_chanev1
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/chump_chanev1
+CND_ARTIFACT_NAME_Debug=chump_changev2
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/chump_changev2
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=chumpchanev1.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/chumpchanev1.tar
+CND_PACKAGE_NAME_Debug=chumpchangev2.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/chumpchangev2.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=chump_chanev1
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/chump_chanev1
+CND_ARTIFACT_NAME_Release=chump_changev2
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/chump_changev2
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=chumpchanev1.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/chumpchanev1.tar
+CND_PACKAGE_NAME_Release=chumpchangev2.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/chumpchangev2.tar
 #
 # include compiler specific variables
 #
