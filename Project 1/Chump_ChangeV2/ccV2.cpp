@@ -1,10 +1,9 @@
 /* 
  * File:   main.cpp
- * Author: Dr. Mark E. Lehr
- * Created on February 14, 2017, 11:32 AM
- * Purpose:  Template to be utilized in creating
- *           solutions to problems in our CSC/CIS 5 
- *           class.
+ * Author: Jones,Kelsey
+ * Created on  April 17, 2017 8:30 p.m.
+ * Purpose:  Progress on Project 1
+ *                  *Need to include a for loop 
  */
 
 //System Libraries
@@ -29,7 +28,7 @@ int main(int argc, char** argv) {
    string g1; //The user's pick
    convert(g1); // Change the input to correct format
    int winFlip, cChoice; //Decides who wins
-   int win=0, lose=0 , draw=0 ,cWins=0,cLose=0; // Keep track of wins and loses
+   int win=0, lose=0,draw=0 ,cWins=0,cLose=0; // Keep track of wins and loses
    string winFip,cPick;
     
   //Welcome the user
@@ -67,14 +66,13 @@ int main(int argc, char** argv) {
    
      //Creation of the Chump A.I
       cChoice = (rand () % (100-1 + 1))+ 1;
-         if (cChoice <=33){
-            cPick="Heads";
-            }       
-         else if (cChoice<=34&&winFlip>=66){
-                cPick="Tails";
-                }
-       else {
-            cPick="Draw";
+      //Implenment a switch to determine THE CHUMPS's picks
+      switch(cChoice){
+             case '<=33': cPick="Heads";
+                break;
+             case '<=34&&>=66)':cPick="Tails";
+                break;
+             default: cPick="Draw";
         } 
        //Start of nested if
         //Determines the winners
@@ -100,16 +98,20 @@ int main(int argc, char** argv) {
         else if (g1!=winFip && cPick==winFip){ // THE CHUMP guessed correctly
                cWins++;
                lose++;
-               cout<<"You lost that round to THE CHUMP\n";
+               cout<<"You lost that round to THE CHUMP2\n";
                cout<<"You have "<<lose<<" losses and "<<win<<" wins.\n"<<endl;
            }
+       {
          
+       }
            
        }
      
-    }while (lose<=3);
-    cout<<"YOU LOSE TO The CHUMP GAMEOVER!!!!!!!!!\n";
-    cout<<"_____________________________\n";                
+    }while (lose<=3 && cLose<=3);// End of do while
+    if (cLose==4)
+        cout<<"Congrats you beat THE CHUMP.\n";
+    else if (lose==4)
+        cout<<"THE CHUMP beat you.\n";
   //Determine the results  
  return 0;
 }
